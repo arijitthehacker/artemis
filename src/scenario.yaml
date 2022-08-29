@@ -1,6 +1,6 @@
 BASE_URL: 'http://127.0.0.1:8080/swagger/doc.json'
 ENDPOINT:
-      - "login"
+      - "authenticate"
       - "user"
 
 BODY:
