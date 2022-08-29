@@ -1,4 +1,8 @@
 BASE_URL: 'http://192.168.100.163:8000/openapi.json'
 ENDPOINT:
-      - "/token"
-      - "/user"
+      - "login"
+      - "user"
+
+BODY:
+      username: admin
+      password: admin123 
