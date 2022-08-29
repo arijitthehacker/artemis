@@ -25,10 +25,10 @@ class APIWorkflow(BaseAPIWorkflow):
     def get_call_kwargs(self, case):
         return {"headers": self.headers}
     
-    # @schema.parametrize()
-    # def custom_test1(case):
-    #     response = case.call()
-    #     case.call_and_validate(response,headers=APIWorkflow.authHeader)
+    @schema.parametrize()
+    def custom_test1(case):
+        response = case.call()
+        case.call_and_validate(response,headers=APIWorkflow.authHeader)
 
     # def check_condition(response, case):
     #     ""

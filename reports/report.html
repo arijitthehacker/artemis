@@ -243,8 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 08-Aug-2022 at 14:50:25 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
-
+    <p>Report generated on 29-Aug-2022 at 12:39:09 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -252,17 +251,16 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>{"pluggy": "1.0.0", "py": "1.11.0", "pytest": "7.1.2"}</td></tr>
       <tr>
         <td>Platform</td>
-        <td>Linux-5.15.0-41-generic-x86_64-with-glibc2.29</td></tr>
+        <td>Linux-5.15.0-46-generic-x86_64-with-glibc2.35</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"anyio": "3.6.1", "html": "3.1.1", "hypothesis": "6.52.1", "metadata": "2.0.2", "parallel": "0.1.1", "schemathesis": "3.15.6", "subtests": "0.7.0"}</td></tr>
+        <td>{"anyio": "3.6.1", "html": "3.1.1", "hypothesis": "6.54.1", "metadata": "2.0.2", "parallel": "0.1.1", "schemathesis": "3.16.1", "subtests": "0.7.0"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.8.10</td></tr></table>
+        <td>3.10.4</td></tr></table>
     <h2>Summary</h2>
-
-    <p>1 tests ran in 0.38 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 0.14 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -272,14 +270,4 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable" col="duration">Duration</th>
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
-          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-
-          <td class="col-result">Failed</td>
-          <td class="col-name">src/scenario-testing.py::TestAPI::runTest</td>
-          <td class="col-duration">0.18</td>
-          <td class="col-links"><a class="text" href="assets/src_scenario_testing.py__TestAPI__runTest_0_0.txt" target="_blank">Hypothesis stats</a> </td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">/usr/lib/python3/dist-packages/urllib3/connection.py:159: in _new_conn<br/>    conn = connection.create_connection(<br/>/usr/lib/python3/dist-packages/urllib3/util/connection.py:84: in create_connection<br/>    raise err<br/>/usr/lib/python3/dist-packages/urllib3/util/connection.py:74: in create_connection<br/>    sock.connect(sa)<br/><span class="error">E   ConnectionRefusedError: [Errno 111] Connection refused</span><br/><br/>During handling of the above exception, another exception occurred:<br/>/usr/lib/python3/dist-packages/urllib3/connectionpool.py:665: in urlopen<br/>    httplib_response = self._make_request(<br/>/usr/lib/python3/dist-packages/urllib3/connectionpool.py:387: in _make_request<br/>    conn.request(method, url, **httplib_request_kw)<br/>/usr/lib/python3.8/http/client.py:1256: in request<br/>    self._send_request(method, url, body, headers, encode_chunked)<br/>/usr/lib/python3.8/http/client.py:1302: in _send_request<br/>    self.endheaders(body, encode_chunked=encode_chunked)<br/>/usr/lib/python3.8/http/client.py:1251: in endheaders<br/>    self._send_output(message_body, encode_chunked=encode_chunked)<br/>/usr/lib/python3.8/http/client.py:1011: in _send_output<br/>    self.send(msg)<br/>/usr/lib/python3.8/http/client.py:951: in send<br/>    self.connect()<br/>/usr/lib/python3/dist-packages/urllib3/connection.py:187: in connect<br/>    conn = self._new_conn()<br/>/usr/lib/python3/dist-packages/urllib3/connection.py:171: in _new_conn<br/>    raise NewConnectionError(<br/><span class="error">E   urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x7f7a331709d0&gt;: Failed to establish a new connection: [Errno 111] Connection refused</span><br/><br/>During handling of the above exception, another exception occurred:<br/>/usr/lib/python3/dist-packages/requests/adapters.py:439: in send<br/>    resp = conn.urlopen(<br/>/usr/lib/python3/dist-packages/urllib3/connectionpool.py:719: in urlopen<br/>    retries = retries.increment(<br/>/usr/lib/python3/dist-packages/urllib3/util/retry.py:436: in increment<br/>    raise MaxRetryError(_pool, url, error or ResponseError(cause))<br/><span class="error">E   urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host=&#x27;127.0.0.1&#x27;, port=8000): Max retries exceeded with url: /token (Caused by NewConnectionError(&#x27;&lt;urllib3.connection.HTTPConnection object at 0x7f7a331709d0&gt;: Failed to establish a new connection: [Errno 111] Connection refused&#x27;))</span><br/><br/>During handling of the above exception, another exception occurred:<br/>../../../../.local/lib/python3.8/site-packages/hypothesis/stateful.py:400: in runTest<br/>    run_state_machine_as_test(cls)<br/>../../../../.local/lib/python3.8/site-packages/hypothesis/stateful.py:222: in run_state_machine_as_test<br/>    run_state_machine(state_machine_factory)<br/>../../../../.local/lib/python3.8/site-packages/hypothesis/stateful.py:107: in run_state_machine<br/>    @given(st.data())<br/>../../../../.local/lib/python3.8/site-packages/schemathesis/stateful.py:169: in __init__<br/>    self.setup()<br/>src/scenario-testing.py:24: in setup<br/>    response = requests.post(<br/>/usr/lib/python3/dist-packages/requests/api.py:116: in post<br/>    return request(&#x27;post&#x27;, url, data=data, json=json, **kwargs)<br/>/usr/lib/python3/dist-packages/requests/api.py:60: in request<br/>    return session.request(method=method, url=url, **kwargs)<br/>/usr/lib/python3/dist-packages/requests/sessions.py:533: in request<br/>    resp = self.send(prep, **send_kwargs)<br/>/usr/lib/python3/dist-packages/requests/sessions.py:646: in send<br/>    r = adapter.send(request, **kwargs)<br/>/usr/lib/python3/dist-packages/requests/adapters.py:516: in send<br/>    raise ConnectionError(e, request=request)<br/><span class="error">E   requests.exceptions.ConnectionError: HTTPConnectionPool(host=&#x27;127.0.0.1&#x27;, port=8000): Max retries exceeded with url: /token (Caused by NewConnectionError(&#x27;&lt;urllib3.connection.HTTPConnection object at 0x7f7a331709d0&gt;: Failed to establish a new connection: [Errno 111] Connection refused&#x27;))</span><br/> -----------------------------------Hypothesis----------------------------------- <br/>Falsifying example:<br/></div></td></tr></tbody></table></body></html>
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead></table></body></html>

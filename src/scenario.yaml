@@ -1,4 +1,4 @@
-BASE_URL: 'http://192.168.100.163:8000/openapi.json'
+BASE_URL: 'http://127.0.0.1:8080/swagger/doc.json'
 ENDPOINT:
       - "login"
       - "user"
